@@ -1,0 +1,50 @@
+.resume{
+    max-width: 800px; margin:0 auto; display:flex; justify-content: space-between; min-height: 100vh;     font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 23px;
+}
+
+.contact{
+    width: 350px;
+    p{
+        padding:1em 0;
+    }
+    form{
+        width:100%;
+        input{
+            margin: 1em 0 2em 0; width:100%; padding: 0.5em 0;
+        }
+        textarea{
+            width:100%; min-height: 50vh;
+        }
+    }
+}
+
+.download{
+    width: 350px;
+    p{
+        margin:1em 0; padding: 0.5em 0;
+    }
+    .dl-link{
+        font-weight:600;font-size: 0.8em; text-decoration: underline;
+    }
+}
+
+@media (max-width: 860px){
+    .resume{
+
+        width: 80%;
+        margin: 0 auto;
+    }
+    .contact{
+        margin-top: 2em;
+        width: 100%;
+    }
+    .download{
+       display:none;
+    }
+
+
+}

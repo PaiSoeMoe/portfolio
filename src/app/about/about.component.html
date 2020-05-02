@@ -1,0 +1,50 @@
+<div #about class="about">
+    <div class="edu">
+        <h3>Education</h3>
+        <div style="display:grid;  grid-template-columns: 1fr 1fr;">
+            <div class="degrees">
+                <p>B.A (English) </p>
+                <br class="break" style="display: none;">
+                <p>
+                    A.A.S (Software Engineering)<br>
+                    <span style="font-size: 0.8em;">Expected(2021)</span>
+                </p>
+
+            </div>
+            <div class="colleges">
+                <p>Yadanarbon University, Mandalay, Myanmar</p>
+
+                <p>Durham Tech
+                    Durham, North Carolina</p>
+            </div>
+
+        </div>
+        <div class="skills">
+            <h3>Skills</h3>
+            <p style="line-height:30px;">
+                Angular, React, Express, Node,<br>
+                Redux, GraphQL, Webpack, Gulp,<br>
+                TravisCI, ...
+            </p>
+        </div>
+        <div class="basic">
+            <h3>Basic info</h3>
+            <p style="line-height:30px;">
+                Born and raised in Myanmar. <br>
+                Moved to America 6 years ago. <br>
+                American citizen. <br>
+                Live in Chapel Hill.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="scroll">
+        <span style="cursor:pointer;" (click)="onClick('Resume')">
+            <img src="assets/img/arrow.png" alt="">
+            <span>Resume</span>
+        </span>
+    </div>
+
+</div>

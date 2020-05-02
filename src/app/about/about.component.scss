@@ -1,0 +1,54 @@
+.about{
+    max-width: 800px; margin: 0 auto; min-height: 100vh;     font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 23px;
+}
+.colleges{
+    font-weight: 400; font-size: 18px;line-height:30px;
+}
+
+.edu{
+    h3{
+        padding:1em 0;
+    }
+}
+.skills{
+font-weight: 400; font-size: 18px; line-height:30px;
+}
+.basic{
+font-weight: 400; font-size: 18px; line-height:30px;
+}
+
+.degrees{
+    font-weight: 400; font-size: 18px; line-height:30px;
+}
+
+@media (max-width: 860px){
+    .about{
+        margin-top: 2em;
+        width:80%;
+        margin: 0 autoSS;
+    }
+    .colleges{
+        font-size: 16px;
+    }
+    .degrees{
+        font-size:16px;
+    }
+    .skills{
+        font-size: 16px;
+    }
+    .basic{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:787px){
+    .break{
+        display: block !important;
+    }
+
+}

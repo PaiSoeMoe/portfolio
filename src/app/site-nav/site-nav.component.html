@@ -1,0 +1,8 @@
+<header class="hide" [class.show]="show">
+    <nav>
+        <ul class="nav-l">
+            <li class="l-item" *ngFor="let item of items" [class.active]="item.active"
+                (click)="handleClick($event, item.name)">{{item.name}}</li>
+        </ul>
+    </nav>
+</header>

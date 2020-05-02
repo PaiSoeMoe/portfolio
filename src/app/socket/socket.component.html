@@ -1,0 +1,31 @@
+<div class="main-container">
+    <a style="margin:2em 0;" routerLink="/">Go Back to Home</a>
+    <h1 style="font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 70px;
+
+color: #000000;">{{data.heading}}</h1>
+    <p class="intro">{{data.intro}}</p>
+
+    <div>
+        <p class="links"><span>Website </span> <span>|</span><span> GitHub</span></p>
+
+        <img style="width:100%;" [src]="data.img" alt="">
+    </div>
+    <div class="mb-friendly">
+        <h2>{{data.mobile.head}}</h2>
+        <div>
+            <h2>{{data.mobile.head}}</h2>
+            <p>
+                {{data.mobile.p}}
+            </p>
+        </div>
+        <img [src]="data.mobile.img" alt="">
+
+    </div>
+
+
+
+</div>

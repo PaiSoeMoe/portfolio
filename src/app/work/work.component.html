@@ -1,0 +1,55 @@
+<div #work style="min-height: 100vh;">
+    <div class="my-works">
+        <p class="cp-h">COMPLETE PROJECTS</p>
+        <div class="full-projects">
+            <div class="imgs"><a routerLink="/the-lux"><img src="assets/img/f1.png" alt="">
+                </a></div>
+            <div class="imgs"><a routerLink="/vasilio"><img src="assets/img/f2.png" alt=""></a>
+            </div>
+        </div>
+        <p class="sm-h">SMALL PROJECTS</p>
+        <div class="sm-projects">
+            <a routerLink="refectoring">
+                <div class="imgs"><img src="assets/img/sm1.png" alt="">
+
+                    <p>
+                        Refectoring
+                    </p>
+                </div>
+            </a>
+
+            <a routerLink="">
+                <div class="imgs"><img src="assets/img/sm2.png" alt="">
+                    <p>
+                        Unit Testing
+                    </p>
+                </div>
+            </a>
+            <a routerLink="">
+                <div class="imgs"> <img src="assets/img/sm3.png" alt="">
+                    <p>
+                        GraphQL
+                    </p>
+                </div>
+            </a>
+            <a routerLink="socket">
+                <div class="imgs"> <img src="assets/img/sm4.png" alt="">
+                    <p>
+                        Socket.io
+                    </p>
+                </div>
+            </a>
+
+
+
+        </div>
+
+
+    </div>
+    <div class="scroll">
+        <span style="cursor:pointer;" (click)="onClick('About Me')">
+            <img src="assets/img/arrow.png" alt="">
+            <span>About me</span>
+        </span>
+    </div>
+</div>

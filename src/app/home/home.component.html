@@ -1,0 +1,26 @@
+<app-nav [items]="items" (onSelect)="onSelect($event)"></app-nav>
+<app-site-nav [items]="items" (onSelect)="onSelect($event)"></app-site-nav>
+<!-- <app-mobile-menu></app-mobile-menu> -->
+<div class="home">
+    <div class="img-container">
+        <div class="text">
+            <p class="p1">
+                Hi, my name is Pi.
+            </p>
+            <p class="p2">
+                I’m full-stack developer from Chapel Hill. I build simple, powerful and elegant websites.
+            </p>
+        </div>
+        <img src="assets/img/1.png" alt="">
+    </div>
+    <div class="scroll">
+        <span style="cursor:pointer;" (click)="onSelect('My Work')">
+            <img src="assets/img/arrow.png" alt="">
+            <span>My Work</span>
+        </span>
+    </div>
+</div>
+
+<app-work (scrollTo)="onSelect($event)"></app-work>
+<app-about (scrollTo)="onSelect($event)"></app-about>
+<app-resume></app-resume>

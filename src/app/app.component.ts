@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, HostListener, AfterViewInit, ViewChildren } from '@angular/core';
+import { GetRefService } from './get-ref.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+
+  constructor(private getRef: GetRefService) {
+
+  }
+
+
   title = 'mypage';
 }

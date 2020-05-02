@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    margin-block-start: unset;
+    margin-block-end: unset;
+    padding-inline-start: unset;
+    padding-inline-end: unset;
+}
+
+
+.scroll{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    span{
+        font-family: Roboto;
+        display: flex;
+        align-items: center;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+span{
+    margin-left: 1em;
+}
+    }
+}
+
+li.l-item.active::after{
+    transform: scale(1,1);
+    border-bottom: 3px solid rgb(0, 0, 0); 
+}
+
+
+@media (max-width: 1150px){
+    .scroll{
+        display:none;
+    }
+    
+}
+
+
+
