@@ -16,6 +16,7 @@ const routes: Routes = [
   { path: 'unit-test', component: UnitTestingComponent },
   { path: 'refectoring', component: RefectoringComponent },
   { path: 'graphql', component: GraphQlComponent }
+  
 ];
 
 @NgModule({
