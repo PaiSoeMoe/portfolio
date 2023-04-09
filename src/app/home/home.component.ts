@@ -40,10 +40,6 @@ export class HomeComponent implements AfterViewInit {
         active: false
       },
       {
-        name: "About Me",
-        active: false
-      },
-      {
         name: "Resume",
         active: false
       }

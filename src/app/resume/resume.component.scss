@@ -4,6 +4,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 20px;
 line-height: 23px;
+
 }
 
 .contact{
@@ -34,7 +35,8 @@ line-height: 23px;
 
 @media (max-width: 860px){
     .resume{
-
+        display:flex;
+        flex-direction: column-reverse;
         width: 80%;
         margin: 0 auto;
     }
@@ -43,7 +45,7 @@ line-height: 23px;
         width: 100%;
     }
     .download{
-       display:none;
+    //    display:none;
     }
 
 
